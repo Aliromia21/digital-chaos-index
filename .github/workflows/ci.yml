@@ -27,6 +27,6 @@ jobs:
           NODE_OPTIONS: --experimental-vm-modules
         run: npm test
 
-      - name: Coverage (optional)
+      - name: Coverage 
         if: always()
         run: npm run test -- --coverage
