@@ -1,4 +1,7 @@
 # Digital Chaos Index API
+[![CI](https://github.com/Aliromia21/digital-chaos-index/actions/workflows/ci.yml/badge.svg)](https://github.com/Aliromia21/digital-chaos-index/actions/workflows/ci.yml)
+![Coverage](https://img.shields.io/badge/coverage-83%25-green)
+
 
 A clean and extensible SaaS-style API that measures and tracks your digital chaos level (browser tabs, unused bookmarks, files, emails, etc.) to help users stay digitally organized.
 
