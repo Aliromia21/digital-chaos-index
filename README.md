@@ -1,6 +1,6 @@
 # Digital Chaos Index API
 
-> A clean and extensible SaaS-style API that measures and tracks your digital chaos level (browser tabs, unused bookmarks, files, emails, etc.) to help users stay digitally organized.
+A clean and extensible SaaS-style API that measures and tracks your digital chaos level (browser tabs, unused bookmarks, files, emails, etc.) to help users stay digitally organized.
 
 Built with a production-grade **Node.js stack**, tested end-to-end, and documented using **Swagger**.
 
@@ -36,15 +36,25 @@ Built with a production-grade **Node.js stack**, tested end-to-end, and document
 
 src/
 ├── app.js # Express app setup
+
 ├── server.js # Entry point
+
 ├── config/ # MongoDB & JWT configuration
+
 ├── controllers/ # Route handlers
+
 ├── services/ # Business logic
+
 ├── middleware/ # Auth, error, validation
+
 ├── models/ # Mongoose models
+
 ├── routes/ # Express routers
+
 ├── utils/ # Helpers (chaosCalculator, schemas)
+
 ├── docs/ # Swagger setup
+
 └── tests/ # Jest + Supertest test suites
 
 ---
@@ -102,13 +112,21 @@ Coverage reporting
 
 ## Example Endpoints
 Method	Endpoint	Description
+
 POST	/api/auth/register	Register new user
+
 POST	/api/auth/login	Authenticate user
+
 POST	/api/snapshots	Create daily snapshot
+
 GET	/api/snapshots	List all snapshots
+
 PATCH	/api/snapshots/:id	Update snapshot
+
 DELETE	/api/snapshots/:id	Delete snapshot
+
 GET	/api/dashboard/today	Get today’s chaos summary
+
 GET	/api/dashboard/week	Get weekly stats
 
 ## Future Enhancements
